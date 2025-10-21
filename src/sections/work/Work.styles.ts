@@ -57,7 +57,7 @@ export const ImageContainerStyled = styled.div`
 export const ImageStyled = styled.img`
   width: 100%;
   height: 100%;
-  min-height: 150px;
+  min-height: 200px;
   object-fit: cover;
 
   &:hover {

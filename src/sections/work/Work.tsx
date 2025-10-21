@@ -28,7 +28,7 @@ export function Work({ lang, content }:{ lang: string, content: DataContentProps
                     <div>
                       <div className="tags">
                         {work.tags.map((tag: string) => 
-                          <Tag key={tag} tagName={tag} />
+                          <Tag key={tag} tagName={tag} className="work-technologies-used"/>
                         )}
                       </div>
                       <Paragraph size="xs" color="gray" mt={6}>{work.designedBy}</Paragraph>

@@ -1,9 +1,15 @@
-import { TagStyled } from "./Tag.styles"
+import { TagStyled } from "./Tag.styles";
 
-export function Tag({ tagName }:{ tagName: string }) {
-	return (
-		<TagStyled>
-			<p>{tagName}</p>
-		</TagStyled>
-	)
+export function Tag({
+  tagName,
+  className,
+}: {
+  tagName: string;
+  className?: string;
+}) {
+  return (
+    <TagStyled {...(className ? { className } : {})}>
+      <p>{tagName}</p>
+    </TagStyled>
+  );
 }
