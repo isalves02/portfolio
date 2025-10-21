@@ -489,8 +489,7 @@ Error generating stack: `+o.message+`
 `,Rh=M.img`
   width: 100%;
   height: 100%;
-  min-height: 350px;
-  max-height: 600px;
+  min-height: 150px;
   object-fit: cover;
 
   &:hover {
@@ -498,7 +497,11 @@ Error generating stack: `+o.message+`
       transform: translateY(0%);
     }
   }
-
+  
+  @media (min-width: 768px) {
+    min-height: 350px;
+    max-height: 600px;  
+  }
 `,Fh=M.div`
   inset: 0;
   padding: 16px;
