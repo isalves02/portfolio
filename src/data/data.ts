@@ -42,6 +42,14 @@ export const dataEN: DataContentProps = {
         urlDescription: 'See github'
       },
       {
+        name: 'MS Máquinas',
+        imgUrl: 'ms-maquinas.png',
+        tags: ['React', 'TypeScript', 'WordPress as CMS', 'PHP', 'MySQL'],
+        designedBy: 'Designed by: Isabel Alves',
+        url: 'https://msmaquinas.com.br/',
+        urlDescription: 'See website'
+      },
+      {
         name: 'Chama pra dançar',
         imgUrl: 'chama-dancar.jpg',
         tags: ['Angular', 'TypeScript', 'WordPress as CMS', 'JQuery', 'PHP', 'MySQL'],
@@ -55,14 +63,6 @@ export const dataEN: DataContentProps = {
         tags: ['Angular', 'TypeScript', 'WordPress as CMS', 'JQuery', 'PHP', 'MySQL'],
         designedBy: 'Designed by: Quântica Comunicação',
         url: 'https://elsimarcoutinho.com.br/en/',
-        urlDescription: 'See website'
-      },
-      {
-        name: 'MS Máquinas',
-        imgUrl: 'ms-maquinas.png',
-        tags: ['React', 'TypeScript', 'WordPress as CMS', 'PHP', 'MySQL'],
-        designedBy: 'Designed by: Isabel Alves',
-        url: 'https://msmaquinas.com.br/',
         urlDescription: 'See website'
       }
     ]
@@ -143,6 +143,14 @@ export const dataPT: DataContentProps = {
         urlDescription: 'Ver github'
       },
       {
+        name: 'MS Máquinas',
+        imgUrl: 'ms-maquinas.png',
+        tags: ['React', 'TypeScript', 'WordPress como CMS', 'PHP', 'MySQL'],
+        designedBy: 'Design por: Isabel Alves',
+        url: 'https://msmaquinas.com.br/',
+        urlDescription: 'Ver website'
+      },
+      {
         name: 'Chama pra dançar',
         imgUrl: 'chama-dancar.jpg',
         tags: ['Angular', 'TypeScript', 'WordPress como CMS', 'JQuery', 'PHP', 'MySQL'],
@@ -156,14 +164,6 @@ export const dataPT: DataContentProps = {
         tags: ['Angular', 'TypeScript', 'WordPress como CMS', 'JQuery', 'PHP', 'MySQL'],
         designedBy: 'Design por: Quântica Comunicação',
         url: 'https://elsimarcoutinho.com.br/pt/',
-        urlDescription: 'Ver website'
-      },
-      {
-        name: 'MS Máquinas',
-        imgUrl: 'ms-maquinas.png',
-        tags: ['React', 'TypeScript', 'WordPress como CMS', 'PHP', 'MySQL'],
-        designedBy: 'Design por: Isabel Alves',
-        url: 'https://msmaquinas.com.br/',
         urlDescription: 'Ver website'
       }
     ]

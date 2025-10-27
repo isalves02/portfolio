@@ -29,7 +29,7 @@ export const TagStyled = styled.div`
     }
 
     &.work-technologies-used {
-      width: 100%;
+      width: auto;
     }
   }
   
